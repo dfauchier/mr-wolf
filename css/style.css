@@ -4,12 +4,16 @@
 @font-face {
 
             font-family: 'PostGrotesk';
-
             font-style: book;
-
             src: url('../fonts/post-grotesk/PostGrotesk-Book.otf');
 
-            src: local('NorthBergen'), url('//www.mywebsite.com/op/wp-content/uploads/useanyfont/141009064915ufonts.com_northbergen-regular.eot') format('embedded-opentype'), url('//www.mywebsite.com/op/wp-content/uploads/useanyfont/141009064915ufonts.com_northbergen-regular.woff') format('woff');
+        }
+
+        @font-face {
+
+            font-family: 'SharpSansNo1';
+            font-style: book;
+            src: url('../fonts/sharp-sans/SharpSansNo1-Semibold.otf');
 
         }
 
