@@ -1,18 +1,16 @@
 
 
-
 @font-face {
 
-            font-family: 'PostGrotesk';
-            font-style: book;
+            font-family: 'PostGrotesk-Book';
             src: url('../fonts/post-grotesk/PostGrotesk-Book.otf');
 
         }
 
+
         @font-face {
 
-            font-family: 'SharpSansNo1';
-            font-style: semibold;
+            font-family: 'SharpSans-Semibold';
             src: url('../fonts/sharp-sans/SharpSansNo1-Semibold.otf');
 
         }
@@ -21,8 +19,7 @@
 
         @font-face {
 
-            font-family: 'SharpSansNo1';
-            font-style: bold;
+            font-family: 'SharpSans-bold';
             src: url('../fonts/sharp-sans/SharpSansNo1-bold.otf');
 
         }
@@ -124,7 +121,8 @@ body {
 #strapline {
 	padding-top: 50vh;
 	font-size: 180%;
-	font-family: 'SharpSansNo1-semibold';
+	font-family: 'SharpSans-semibold';
+	/*font-weight: semibold;*/
 	letter-spacing: 0.08em;
 
 }
@@ -159,7 +157,7 @@ body {
 
 
 .body-titles {
-	font-family: 'SharpSansNo1'; 
+	font-family: 'SharpSans-bold'; 
 	letter-spacing: 0.1em;
 	font-weight: bold;
 	font-size: 150%;
