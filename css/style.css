@@ -34,7 +34,7 @@
 
 body {
 
-	font-family: 'PostGrotesk-Book', 'montssssssserrat';            /*'Montserrat', sans-serif; */
+	font-family: 'PostGrotesk-Book', 'montserrat';            /*'Montserrat', sans-serif; */
 	font-size: 18px;
 	line-height: 200%;
 	letter-spacing: 0.05em;
@@ -121,7 +121,7 @@ body {
 #strapline {
 	padding-top: 50vh;
 	font-size: 180%;
-	font-family: 'SharpSans-semibold';
+	font-family: 'SharpSans-semibold',  'montserrat';
 	/*font-weight: semibold;*/
 	letter-spacing: 0.08em;
 
@@ -157,9 +157,9 @@ body {
 
 
 .body-titles {
-	font-family: 'SharpSans-bold'; 
+	font-family: 'SharpSans-bold',  'montserrat'; 
 	letter-spacing: 0.1em;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 150%;
 	text-align: left;
 	color: #000E30;
