@@ -1,3 +1,30 @@
+
+
+
+@font-face {
+
+            font-family: 'PostGrotesk';
+
+            font-style: book;
+
+            src: url('../fonts/post-grotesk/PostGrotesk-Book.otf');
+
+            src: local('NorthBergen'), url('//www.mywebsite.com/op/wp-content/uploads/useanyfont/141009064915ufonts.com_northbergen-regular.eot') format('embedded-opentype'), url('//www.mywebsite.com/op/wp-content/uploads/useanyfont/141009064915ufonts.com_northbergen-regular.woff') format('woff');
+
+        }
+
+
+
+
+<link href='../fonts/sharp-sans/' rel='stylesheet' type='text/css'>
+
+	<link href='../fonts/post-grotesk/' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
 body {
 
 	font-family: 'PostGrotesk-Book', 'montserrat';            /*'Montserrat', sans-serif; */
