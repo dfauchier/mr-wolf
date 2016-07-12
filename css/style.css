@@ -1,0 +1,309 @@
+body {
+
+	font-family: 'PostGrotesk-Book';              /*'Montserrat', sans-serif; */
+	font-size: 18px;
+	line-height: 200%;
+	letter-spacing: 0.05em;
+	color: #000E30;
+	background-color: #fff; 
+/*	margin-right: 15px;
+	margin-left: 15px;*/
+	text-align: justify;
+
+}
+
+
+.clear {
+ clear: both; 
+
+}
+
+/*//////////////////// NAV-BAR ////////////////////*/
+
+.navbar {
+	display: block;
+	background-color: #fff;
+	/*background-color: blue;*/
+	height: 50px;
+
+
+}
+
+
+.navbar-header {
+	display: block;
+	/*background-color: orange;*/
+	height: 50px;
+	width: 100%;
+
+
+}
+
+
+.navbar-brand {
+	/*margin-left: 50px;*/
+	/*background-color: green;*/
+}
+
+#nav-logo {
+	height: 20px;
+	margin: 0 auto;
+	/*background-color: yellow;*/
+	margin: 0 auto;
+	/*margin-top: -5px; */
+
+
+}
+
+
+.navbar #get-in-touch-button {
+	border-radius: 3px;
+	border-width: 1px;
+	margin-top: 8px;
+	border-color: #000E30;
+	/*margin-right: 15px;*/
+	float:right; 
+	line-height: 20px;
+	/*font-size: 10px;*/
+}
+
+
+
+/*//////////////////// COVER-PAGE ////////////////////*/
+
+#cover-page {
+	margin: 0 auto;
+	text-align: center;
+	height: 95vh;
+	overflow: hidden;
+	background-color: #fff;
+
+
+}
+
+
+
+
+#strapline {
+	padding-top: 50vh;
+	font-size: 180%;
+	font-family: 'SharpSansNo1-semibold';
+	letter-spacing: 0.08em;
+
+}
+
+
+
+/*//////////////////// SECTION-1 ////////////////////*/
+
+
+#section-1 {
+		/*background-color: #fff;*/
+		overflow: hidden;
+
+}
+
+
+
+.body-section {
+	margin: 0 auto;
+
+
+
+}
+
+.subsection-padding {
+	min-width: 100%;
+	height: 100px;
+	/*background-color: green;*/
+	display: inline-block;
+
+}
+
+
+.body-titles {
+	font-family: 'SharpSansNo1-bold';
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	font-size: 150%;
+	text-align: left;
+	color: #000E30;
+
+}
+
+.body-text {
+	color: #61728E;
+	text-align: left;
+	margin-top: 20px;
+
+
+}
+
+.section-start-asset {
+	height: 15px;
+	width: 60px;
+	display: block;
+/*	margin: 0 auto;
+*/	background-color: #FEE834;
+	/*margin-top: 150px;*/
+	margin-bottom: 40px;
+}
+
+
+
+/*//////////////////// SKILLS ////////////////////*/
+
+
+
+.skill {
+	margin-top: 80px;
+ 
+}
+
+.skill img {
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+
+}
+
+.skill p {
+	margin-top: 25px;
+	text-align: center;
+	color: #27273B;
+
+}
+
+/*//////////////////// CONTACT ////////////////////*/
+
+
+
+.contact-button { 
+	color: #27273B;
+	/*color: white; */
+	background-color: #F7D144; 
+	/*background-color: #27273B;*/
+	border: none ; 
+	font-size: 20px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 10px #666666;
+	padding: 25px 50px;
+	margin-top: 50px;
+
+} 
+
+.contact-button-container  {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+
+}
+
+
+
+.contact-button:hover, 
+.contact-button:focus, 
+.contact-button:active { 
+  color: #FFFFFF; 
+  background-color: #27273B; 
+  border: none ; 
+  text-decoration: none;
+} 
+
+
+
+
+
+/*//////////////////// SECTION-CLIENTS ////////////////////*/
+
+
+#section-clients {
+	width: 100%;
+	/*background-color: yellow;*/
+	color: #000E30;
+
+
+}
+
+
+.client-line-logo {
+	display: inline-block;
+	vertical-align: middle;
+	/*background-color: green;*/
+	line-height: 100px;
+	padding-left: 0;
+
+}
+
+
+.client-line-logo img {
+	max-height: 70px;
+	max-width: 70px;
+/*	margin-right: 15px;*/
+
+
+}
+
+
+.client-line-description {
+	/*vertical-align: middle;*/
+	/*text-align: left;*/
+	/*margin-top: 20px;*/
+	margin: 25px;
+	line-height: 1.8em;
+	text-align: left;
+	color: #B6C1D1;
+
+}
+
+.client-line-link {
+	/*vertical-align: middle;*/
+	/*display: inline-block;*/
+	text-align: right !important;
+	/*background-color: orange;*/
+	/*line-height: 100px;*/
+	/*text-decoration: underline !important;*/
+	color: #B6C1D1;
+}
+
+
+
+
+
+/*--------*/
+
+/*
+
+.container {
+	margin-bottom: 80px;
+}
+
+
+
+.bottom {
+
+	position: fixed;
+	z-index: -1;
+	bottom: 0;
+	height: 80px;	
+	text-align: center;
+	font-size: 150%;
+	line-height: 140%;
+	width: 100%;
+	margin-left: -15px;
+	opacity: 0.5;
+	font-weight: lighter;
+}
+
+
+#footer-text .emoji {
+	width: 1.2em;
+	margin-top: -2px;
+}
+
+#footer-text {
+	position: fixed;
+	margin: 0 auto;
+	width: 100%;
+	bottom: 10px; 
+}*/

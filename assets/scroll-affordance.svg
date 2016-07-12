@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="110px" height="205px" viewBox="0 0 110 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>scroll-affordance</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="scroll-affordance" sketch:type="MSLayerGroup" transform="translate(5.000000, 0.000000)">
+            <path d="M-1.06747711e-16,160 L49.2146194,199.652841 C49.6483731,200.002322 50.3459863,200.006867 50.7853806,199.652841 L100,160" id="Line" stroke="#AAD8FF" stroke-width="10" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-142" fill="#7EC6FF" sketch:type="MSShapeGroup" cx="50" cy="90" r="10"></circle>
+            <circle id="Oval-142" fill="#3E9BF5" sketch:type="MSShapeGroup" cx="50" cy="10" r="10"></circle>
+        </g>
+    </g>
+</svg>
