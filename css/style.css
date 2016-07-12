@@ -12,17 +12,23 @@
         @font-face {
 
             font-family: 'SharpSansNo1';
-            font-style: book;
+            font-style: semibold;
             src: url('../fonts/sharp-sans/SharpSansNo1-Semibold.otf');
 
         }
 
 
 
+        @font-face {
 
-<link href='../fonts/sharp-sans/' rel='stylesheet' type='text/css'>
+            font-family: 'SharpSansNo1';
+            font-style: bold;
+            src: url('../fonts/sharp-sans/SharpSansNo1-bold.otf');
 
-	<link href='../fonts/post-grotesk/' rel='stylesheet' type='text/css'>
+        }
+
+
+
 
 
 
@@ -31,7 +37,7 @@
 
 body {
 
-	font-family: 'PostGrotesk-Book', 'montserrat';            /*'Montserrat', sans-serif; */
+	font-family: 'PostGrotesk-Book', 'montssssssserrat';            /*'Montserrat', sans-serif; */
 	font-size: 18px;
 	line-height: 200%;
 	letter-spacing: 0.05em;
@@ -153,7 +159,7 @@ body {
 
 
 .body-titles {
-	font-family: 'SharpSansNo1-bold';
+	font-family: 'SharpSansNo1-bold'; 
 	letter-spacing: 0.1em;
 	font-weight: bold;
 	font-size: 150%;
