@@ -40,6 +40,16 @@ body {
 
 }
 
+a {
+	color: #000E30;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: green;
+}
+
+
 
 .clear {
  clear: both; 
@@ -316,7 +326,6 @@ body {
 	text-decoration: none;
 	text-align: center;	
 	color: #61728E;
-	background-color: orange;
 	line-height: 40px;
 	overflow: visible;
 
@@ -324,23 +333,31 @@ body {
 }
 
 #footer-content {
-	/*background-color: green;*/
 	align-self: center;
 	color: #61728E;
 
-
-
 }
 
-#hiring-link a:hover {
-color: red;
+#footer-content a:hover {
+	align-self: center;
+	color: #000E30;
+
 }
 
 
 #icon-heart {
 color: red;
 opacity: 0.6;
+display: inline;
+vertical-align: -1px;
 }
+
+
+#hiring-link:hover #icon-heart {
+	opacity:1;
+
+}
+
 
 
 
