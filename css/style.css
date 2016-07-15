@@ -304,8 +304,8 @@ body {
 	background-color: white;
 	text-align: center;
 	font-size: 14px;
-	/*background-color: orange;*/
-	display: flex;
+/*	background-color: orange;
+*/	display: flex;
   	justify-content: center;
 
 
@@ -316,6 +316,10 @@ body {
 	text-decoration: none;
 	text-align: center;	
 	color: #61728E;
+	background-color: orange;
+	line-height: 40px;
+	overflow: visible;
+
 
 }
 
